@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    table, th, td {
+      border : 1px solid black;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+</head>
+<body>
+  <button type="button" id="insertBtn">+</button>
+  <button type="button" id="ajaxBtn">전송</button>
+  <table class="list user">
+    <thead>
+      <tr>
+        <th><input type="checkbox" id="allChk"></th>
+        <th>No.</th>
+        <th>아이디</th>
+        <th>비밀번호</th>
+        <th>구분</th>
+        <th>이름</th>
+        <th>가입날짜</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><input type="checkbox" disabled></td>
+        <td>001</td>
+        <td>Anony</td>
+        <td>1234</td>
+        <td>
+          <select>
+            <option value="Male">남자</option>
+            <option value="Female" selected>여자</option>
+          </select>
+        </td>
+        <td>한지수</td>
+        <td>2023-10-31</td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- <script src="javascript.js"></script> -->
+  <!-- <script src="javascript_func.js"></script> -->
+  <script src="jquery.js"></script>
+</body>
+</html>
